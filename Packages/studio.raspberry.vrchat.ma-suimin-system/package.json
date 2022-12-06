@@ -1,0 +1,20 @@
+{
+  "name": "studio.raspberry.vrchat.ma-suimin-system",
+  "displayName": "RBS SuiminSystem",
+  "version": "0.2.0",
+  "unity": "2019.4",
+  "description": "3点トラッキング用VR睡眠ギミック\nAvatar gimmick for sleeping in VR (3-point tracking)",
+  "vrchatVersion": "2022.1.1",
+  "author": {
+    "name": "RASPBERRY Studio / はるる早苗(HaruruSanae)",
+    "email": "sanaehururu1200@gmail.com",
+    "url": "https://www.raspberry.studio"
+  },
+  "vpmDependencies": {
+    "com.vrchat.avatars": "3.1.10",
+    "nadena.dev.modular-avatar": "*"
+  },
+  "legacyFolders": {
+    "Assets\\RBS\\rbs_ma_suimin_system" : "8b72a69c8591a7446b1b29dc12b3aaf3"
+  }
+}
