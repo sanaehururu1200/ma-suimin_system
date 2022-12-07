@@ -1,7 +1,7 @@
 {
   "name": "studio.raspberry.vrchat.ma-suimin-system",
   "displayName": "RBS SuiminSystem",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "unity": "2019.4",
   "description": "3点トラッキング用VR睡眠ギミック\nAvatar gimmick for sleeping in VR (3-point tracking)",
   "vrchatVersion": "2022.1.1",
