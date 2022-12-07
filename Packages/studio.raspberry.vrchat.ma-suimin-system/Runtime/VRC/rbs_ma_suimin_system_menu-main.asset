@@ -33,6 +33,16 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
+  - name: Petan
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: rbs_Petan
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
   - name: Advanced
     icon: {fileID: 0}
     type: 103

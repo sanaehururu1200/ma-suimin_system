@@ -234,8 +234,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1943628142}
-  m_LocalRotation: {x: 0.0035367883, y: 1.9676648e-10, z: 0.000011847124, w: 0.9999938}
-  m_LocalPosition: {x: 0.0000046566265, y: 1.0786079, z: -0.047478627}
+  m_LocalRotation: {x: -0.0069797933, y: -0.00000012619755, z: 0.00000001893665, w: -0.9999757}
+  m_LocalPosition: {x: 2.8559466e-10, y: 1.1829377, z: -0.012747407}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1221787695}
@@ -509,6 +509,13 @@ MonoBehaviour:
     isPrefix: 0
     syncType: 3
     defaultValue: 1
+    saved: 1
+  - nameOrPrefix: rbs_Petan
+    remapTo: 
+    internalParameter: 1
+    isPrefix: 0
+    syncType: 3
+    defaultValue: 0
     saved: 1
 --- !u!1 &519719430165524114
 GameObject:
