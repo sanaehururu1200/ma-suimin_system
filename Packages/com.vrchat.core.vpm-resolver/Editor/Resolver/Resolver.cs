@@ -11,6 +11,7 @@ using UnityEngine;
 using VRC.PackageManagement.Core;
 using VRC.PackageManagement.Core.Types;
 using VRC.PackageManagement.Core.Types.Packages;
+using Version = VRC.PackageManagement.Core.Types.VPMVersion.Version;
 
 namespace VRC.PackageManagement.Resolver
 {
@@ -188,10 +189,7 @@ namespace VRC.PackageManagement.Resolver
         
         public static void ForceRefresh ()
         {
-            MethodInfo method = typeof( UnityEditor.PackageManager.Client ).GetMethod( "Resolve", BindingFlags.Static | BindingFlags.NonPublic | BindingFlags.DeclaredOnly );
-            if( method != null )
-                method.Invoke( null, null );
-
+            UnityEditor.PackageManager.Client.Resolve();
             AssetDatabase.Refresh();
         }
 
