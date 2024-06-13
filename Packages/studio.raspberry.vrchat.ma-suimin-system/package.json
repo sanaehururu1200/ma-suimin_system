@@ -11,7 +11,7 @@
     "url": "https://www.raspberry.studio"
   },
   "vpmDependencies": {
-    "com.vrchat.avatars": "3.1.10",
+    "com.vrchat.avatars": "^3.1.10",
     "nadena.dev.modular-avatar": "*"
   },
   "legacyFolders": {
