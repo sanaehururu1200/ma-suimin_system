@@ -11,8 +11,9 @@
     "url": "https://www.raspberry.studio"
   },
   "vpmDependencies": {
-    "com.vrchat.avatars": "3.1.10",
-    "nadena.dev.modular-avatar": "*"
+    "com.vrchat.avatars" : ">=3.2.0",
+    "nadena.dev.modular-avatar" : "^1.9.9",
+    "nadena.dev.ndmf" : "^1.4.0"
   },
   "legacyFolders": {
     "Assets\\RBS\\rbs_ma_suimin_system": "8b72a69c8591a7446b1b29dc12b3aaf3"
